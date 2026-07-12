@@ -1,18 +1,22 @@
-import { parseSignature, type Address, type Hex } from 'viem'
+import { parseSignature, type Address, type Chain, type Hex } from 'viem'
 import { eip3009Abi } from './abi.js'
 import { requireNetwork, type HoodNetwork } from './networks.js'
 import { verifyPayment, type HoodReader } from './verify.js'
 import type { PaymentPayload, PaymentRequirements, SettleResult } from './types.js'
 
-/** The slice of a viem `WalletClient` needed to broadcast settlement. */
+/**
+ * The slice of a viem `WalletClient` needed to broadcast settlement. A real
+ * `WalletClient` created with `account` bound (as the facilitator's is) needs
+ * no `account` argument here — it defaults to the bound account.
+ */
 export interface HoodBroadcaster {
   writeContract(args: {
     address: Address
     abi: readonly unknown[]
     functionName: string
     args: readonly unknown[]
-    chain?: unknown
-    account?: unknown
+    chain: Chain | null
+    account: Address
   }): Promise<Hex>
 }
 
@@ -28,6 +32,8 @@ export interface SettleOptions {
   requirements: PaymentRequirements
   /** Facilitator gas wallet that broadcasts the settlement transaction. */
   wallet: HoodBroadcaster
+  /** The facilitator's own address (the gas-paying account bound to `wallet`). */
+  account: Address
   /** Public client used to re-verify and to await the receipt. */
   reader: HoodConfirmer
   /** Injectable clock (unix seconds) for deterministic tests. */
@@ -91,6 +97,7 @@ export async function settlePayment(opts: SettleOptions): Promise<SettleResult> 
         s,
       ],
       chain: net.chain,
+      account: opts.account,
     })
   } catch (err) {
     return {
