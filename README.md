@@ -254,6 +254,4 @@ rationale.
 
 ## License
 
-Apache-2.0 © 2026 nirholas
-
-Built by [nirholas](https://x.com/nichxbt) · [three.ws](https://three.ws)
+All rights reserved. See [LICENSE](LICENSE).
