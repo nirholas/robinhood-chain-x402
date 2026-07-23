@@ -1,6 +1,6 @@
 {
   "name": "hood402",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "x402 payment rail for USDG on Robinhood Chain (chain 4663). Spec-conformant `exact`/EIP-3009 server middleware, client fetch wrapper, and a self-hostable facilitator. Interoperates with any standard x402 client.",
   "keywords": [
     "x402",
@@ -20,11 +20,11 @@
   "author": "nirholas (https://x.com/nichxbt)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nirholas/hood402.git"
+    "url": "git+https://github.com/nirholas/robinhood-chain-x402.git"
   },
-  "homepage": "https://nirholas.github.io/hood402/",
+  "homepage": "https://nirholas.github.io/robinhood-chain-x402/",
   "bugs": {
-    "url": "https://github.com/nirholas/hood402/issues"
+    "url": "https://github.com/nirholas/robinhood-chain-x402/issues"
   },
   "type": "module",
   "engines": {
