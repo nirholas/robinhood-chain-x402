@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Self-hostable x402 facilitator for USDG on Robinhood Chain — verify + settle endpoints, idempotent SQLite ledger, metrics. Built on the hood402 protocol package.",
   "keywords": ["x402", "facilitator", "robinhood-chain", "usdg", "eip-3009"],
-  "license": "MIT",
+  "license": "SEE LICENSE IN ../LICENSE",
   "author": "nirholas (https://x.com/nichxbt)",
   "type": "module",
   "engines": {
