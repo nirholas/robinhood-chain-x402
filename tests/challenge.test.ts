@@ -58,6 +58,33 @@ describe('buildRequirements', () => {
     expect(req.network).toBe(ROBINHOOD_MAINNET.id)
   })
 
+  // The sibling `hood-pay` package keeps its own copy of this registry and
+  // accepts the bare `mainnet`/`testnet` names. Both alias sets have to
+  // resolve here too, or a network string that works in one package is
+  // rejected by the other.
+  it.each([
+    ['robinhood', ROBINHOOD_MAINNET],
+    ['robinhood-chain', ROBINHOOD_MAINNET],
+    ['robinhood-mainnet', ROBINHOOD_MAINNET],
+    ['mainnet', ROBINHOOD_MAINNET],
+    ['4663', ROBINHOOD_MAINNET],
+    ['eip155:4663', ROBINHOOD_MAINNET],
+    ['robinhood-testnet', ROBINHOOD_TESTNET],
+    ['robinhood-sepolia', ROBINHOOD_TESTNET],
+    ['testnet', ROBINHOOD_TESTNET],
+    ['46630', ROBINHOOD_TESTNET],
+    ['eip155:46630', ROBINHOOD_TESTNET],
+  ])('resolves the alias %s', (alias, expected) => {
+    const req = buildRequirements({
+      price: '1.00',
+      payTo: PAY_TO,
+      resource: 'https://api.example.com/data',
+      network: alias,
+    })
+    expect(req.network).toBe(expected.id)
+    expect(req.asset).toBe(expected.usdg)
+  })
+
   it('rejects an unknown network', () => {
     expect(() =>
       buildRequirements({

@@ -67,10 +67,12 @@ const ALIASES: Record<string, HoodNetwork> = {
   robinhood: ROBINHOOD_MAINNET,
   'robinhood-chain': ROBINHOOD_MAINNET,
   'robinhood-mainnet': ROBINHOOD_MAINNET,
+  mainnet: ROBINHOOD_MAINNET,
   'eip155:4663': ROBINHOOD_MAINNET,
   '4663': ROBINHOOD_MAINNET,
   'robinhood-testnet': ROBINHOOD_TESTNET,
   'robinhood-sepolia': ROBINHOOD_TESTNET,
+  testnet: ROBINHOOD_TESTNET,
   'eip155:46630': ROBINHOOD_TESTNET,
   '46630': ROBINHOOD_TESTNET,
 }

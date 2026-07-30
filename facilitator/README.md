@@ -21,8 +21,8 @@ Built on the [`hood402`](..) protocol package. Part of the [hood402](..) repo.
 ## Install & run
 
 ```bash
-git clone https://github.com/nirholas/hood402.git
-cd hood402 && npm install && npm run build   # build the core `hood402` package first
+git clone https://github.com/nirholas/robinhood-chain-x402.git
+cd robinhood-chain-x402 && npm install && npm run build   # build the core `hood402` package first
 cd facilitator && npm install && npm run build
 
 cp ../.env.example .env   # fill in FACILITATOR_PRIVATE_KEY at minimum

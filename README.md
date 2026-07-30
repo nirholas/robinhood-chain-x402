@@ -8,7 +8,9 @@ subscriptions. hood402 follows the standard [x402 protocol](https://github.com/c
 wire format exactly, so it interoperates with the wider x402 client ecosystem, not just its
 own client.
 
-Docs: **https://nirholas.github.io/hood402/**
+Docs: **https://github.com/nirholas/robinhood-chain-x402** (the reference pages under
+[`docs/`](./docs/index.html) render from the repo; the hosted docs site is not published
+right now, so the repo is the canonical source).
 
 ## Why EIP-3009, and how we know
 
@@ -50,7 +52,8 @@ and [`docs/index.html`](./docs/index.html#conformance) for the full write-up.
 npm install hood402 viem
 ```
 
-Node ≥ 20. Until the package is on npm, install from a checkout: `npm i ../hood402`.
+Node ≥ 20. To work against an unreleased change instead, install from a checkout:
+`npm i ../robinhood-chain-x402`.
 
 ## Packages in this repo
 
