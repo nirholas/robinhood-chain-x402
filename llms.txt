@@ -1,0 +1,28 @@
+# robinhood-chain-x402
+
+> x402 payment rail for USDG on Robinhood Chain: spec-conformant exact/EIP-3009 middleware, client fetch wrapper, self-hostable facilitator.
+
+robinhood-chain-x402 is an open-source repository by nirholas, part of the three.ws ecosystem.
+
+## Docs
+
+- [README](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md): install, usage and reference
+- [Why EIP-3009, and how we know](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md#why-eip-3009-and-how-we-know)
+- [Install](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md#install)
+- [Packages in this repo](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md#packages-in-this-repo)
+- [Quickstart: server](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md#quickstart-server)
+- [Quickstart: client](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md#quickstart-client)
+- [Quickstart: facilitator](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md#quickstart-facilitator)
+- [Supported networks](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md#supported-networks)
+- [API reference](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/README.md#api-reference)
+- [AGENTS.md](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/AGENTS.md): guidance for coding agents
+- [Full text for LLMs](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/llms-full.txt): the README inlined
+
+## Project
+
+- [Source](https://github.com/nirholas/robinhood-chain-x402)
+- [Issues](https://github.com/nirholas/robinhood-chain-x402/issues)
+- [Discussions](https://github.com/nirholas/robinhood-chain-x402/discussions)
+- [Homepage](https://nirholas.github.io/robinhood-chain-x402/)
+- [three.ws](https://three.ws): the platform this is part of
+- [All repositories by nirholas](https://github.com/nirholas/nirholas#readme)

@@ -1,5 +1,10 @@
 # hood402
 
+<!-- three.ws:badges -->
+[![GitHub stars](https://img.shields.io/github/stars/nirholas/robinhood-chain-x402?style=flat&logo=github)](https://github.com/nirholas/robinhood-chain-x402/stargazers) [![Last commit](https://img.shields.io/github/last-commit/nirholas/robinhood-chain-x402?style=flat)](https://github.com/nirholas/robinhood-chain-x402/commits) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat)](https://github.com/nirholas/robinhood-chain-x402/pulls) [![AI agent friendly](https://img.shields.io/badge/AI%20agents-AGENTS.md%20%2B%20llms.txt-6d5dfc?style=flat)](https://github.com/nirholas/robinhood-chain-x402/blob/HEAD/AGENTS.md)
+<!-- /three.ws:badges -->
+
+
 **The x402 payment rail for USDG on [Robinhood Chain](https://docs.robinhood.com/chain/) (chain ID 4663).**
 
 Spec-conformant `exact`/EIP-3009 server middleware, a paying client, and a self-hostable
@@ -262,3 +267,26 @@ All rights reserved. See [LICENSE](LICENSE).
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nirholas/robinhood-chain-x402&type=Date)](https://www.star-history.com/#nirholas/robinhood-chain-x402&Date)
+
+<!-- three.ws:growth -->
+## Support the project
+
+If robinhood-chain-x402 saves you time, **[star it on GitHub](https://github.com/nirholas/robinhood-chain-x402)**. Stars are how other developers and AI agents find the repositories worth trusting, and they cost you one click.
+
+Know someone who would use it? [Post on X](https://twitter.com/intent/tweet?text=robinhood-chain-x402%3A%20x402%20payment%20rail%20for%20USDG%20on%20Robinhood%20Chain%3A%20spec-conformant%20exact%2FEIP-3009%20middleware%2C%20client&url=https%3A%2F%2Fgithub.com%2Fnirholas%2Frobinhood-chain-x402) · [Share on Bluesky](https://bsky.app/intent/compose?text=robinhood-chain-x402%3A%20x402%20payment%20rail%20for%20USDG%20on%20Robinhood%20Chain%3A%20spec-conformant%20exact%2FEIP-3009%20middleware%2C%20client%20https%3A%2F%2Fgithub.com%2Fnirholas%2Frobinhood-chain-x402) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fnirholas%2Frobinhood-chain-x402) · [Submit to Hacker News](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2Fnirholas%2Frobinhood-chain-x402&t=robinhood-chain-x402%3A%20x402%20payment%20rail%20for%20USDG%20on%20Robinhood%20Chain%3A%20spec-conformant%20exact%2FEIP-3009%20middleware%2C%20client) · [Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2Fnirholas%2Frobinhood-chain-x402&title=robinhood-chain-x402%3A%20x402%20payment%20rail%20for%20USDG%20on%20Robinhood%20Chain%3A%20spec-conformant%20exact%2FEIP-3009%20middleware%2C%20client)
+
+## Built for AI agents too
+
+Coding agents and LLM tooling can read this repo directly: [AGENTS.md](./AGENTS.md), [llms.txt](./llms.txt), [llms-full.txt](./llms-full.txt). Point an agent at `https://github.com/nirholas/robinhood-chain-x402` and it has the context it needs.
+
+## More from the same author
+
+- [All repositories by nirholas](https://github.com/nirholas/nirholas#readme): the full catalog, grouped by topic
+- [three.ws](https://three.ws): the platform for 3D AI agents with Solana wallets, a skill marketplace and x402 payments
+- Questions or ideas: [open an issue](https://github.com/nirholas/robinhood-chain-x402/issues) or [start a discussion](https://github.com/nirholas/robinhood-chain-x402/discussions)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=nirholas/robinhood-chain-x402)](https://github.com/nirholas/robinhood-chain-x402/graphs/contributors)
+
+<!-- /three.ws:growth -->
