@@ -1,0 +1,21 @@
+{
+  "name": "robinhood-chain-x402",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "x402 USDG payments on Robinhood Chain: paywall middleware, a spend-capped paying client and a self-hosted facilitator.",
+  "plugins": [
+    {
+      "name": "hood402",
+      "source": "./plugins/hood402",
+      "description": "x402 USDG payments on Robinhood Chain: paywall middleware, a spend-capped paying client and a self-hosted facilitator.",
+      "category": "finance",
+      "tags": [
+        "robinhood-chain",
+        "x402",
+        "usdg",
+        "payments"
+      ]
+    }
+  ]
+}
