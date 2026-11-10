@@ -1,0 +1,17 @@
+{
+  "name": "hood402",
+  "version": "0.1.1",
+  "description": "x402 USDG payments on Robinhood Chain: paywall middleware, a spend-capped paying client and a self-hosted facilitator.",
+  "author": {
+    "name": "nirholas"
+  },
+  "repository": "https://github.com/nirholas/robinhood-chain-x402",
+  "homepage": "https://nirholas.github.io/robinhood-chain-x402/",
+  "keywords": [
+    "x402",
+    "robinhood-chain",
+    "usdg",
+    "eip-3009",
+    "facilitator"
+  ]
+}
